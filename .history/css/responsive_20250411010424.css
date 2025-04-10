@@ -1,14 +1,4 @@
 /* home page */
-@media(min-width: 1024.02px) {
-  .card-mobile{
-    display: none;
-    
-  }
-  .top-header-mobile{
-    display: none;
-  }
-  
-}
 @media (max-width: 1024px) {
   .banner .slice {
     margin-top: 30px;
@@ -48,9 +38,6 @@
     display: none;
   }
   .top-header-mobile{
-    display: none;
-  }
-  .card-mobile{
     display: none;
   }
 }

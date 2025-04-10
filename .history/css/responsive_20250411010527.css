@@ -1,12 +1,5 @@
 /* home page */
-@media(min-width: 1024.02px) {
-  .card-mobile{
-    display: none;
-    
-  }
-  .top-header-mobile{
-    display: none;
-  }
+@media (screen) {
   
 }
 @media (max-width: 1024px) {
