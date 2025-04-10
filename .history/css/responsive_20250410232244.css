@@ -1,0 +1,108 @@
+/* home page */
+@media (max-width: 1024px) {
+  .banner .slice {
+    margin-top: 30px;
+    width: 100px;
+    height: 125px;
+  }
+  .banner .slice .item {
+    transform: rotateY(
+        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
+      )
+      translateZ(350px);
+  }
+  .card-mobile {
+    display: none;
+  }
+  .top-header-mobile{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .banner .slice .item {
+    transform: rotateY(
+        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
+      )
+      translateZ(250px);
+  }
+  .card-mobile {
+    display: none;
+  }
+  .top-header-mobile{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .banner .slice {
+    display: none;
+  }
+  .banner .content {
+    text-align: left;
+    bottom: 10px;
+    left: 40px;
+  }
+  .card-mobile {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .avt-mobile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .card-mobile .name-avt {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #252a3d;
+    margin-bottom: 10px;
+  }
+  .card-mobile p{
+    font-size: 2rem;
+    color: #252a3d;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .social-mobile {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .icon-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #252a3d;
+  }
+  .social-mobile a {
+    text-decoration: none;
+  }
+  .top-header .nav-list{
+    display: none;
+  }
+  .top-header-mobile{
+    display: block;
+  }
+  .top-header-mobile{
+    display: flex;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-header{
+    width: 120px;
+    height: 40px;
+  }
+  .menu-header{
+    font-size: 2.4rem;
+    color: #252a3d;
+  }
+}

@@ -1,0 +1,13 @@
+/* home page */
+@media (max-width : 1024px) {
+    
+}
+@media (max-width : 768px) {
+    
+}
+@media (max-width : 480px) {
+    .banner .slice{
+        width: 100px;
+        height: 125px;
+    }
+}

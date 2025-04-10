@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "DM Sans", sans-serif;
+    font-size: 62.5%;
+}
+
+.banner{
+    background: url('../asset/image/banner-main.png') center /cover no-repeat ;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px ;
+}
+
+.top-header .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    column-gap: 60px;
+}   
+.txt-nav{
+    font-size: 1.8rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.txt-nav:hover{
+    color: #fff;
+    
+}

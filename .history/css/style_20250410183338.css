@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.banner{
+    background: url('../asset/image/banner-main.png') center / center no;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.top-header .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}   

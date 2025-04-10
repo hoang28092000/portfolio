@@ -1,0 +1,29 @@
+/* home page */
+@media (max-width : 1024px) {
+    .banner .slice{
+        margin-top: 30px;
+        width: 100px;
+        height: 125px;
+    }
+    .banner .slice .item{
+        transform: 
+        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) *1deg))
+        translateZ(350px);
+    }
+}
+@media (max-width : 768px) {
+    .banner .slice .item{
+        transform: 
+        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) *1deg))
+        translateZ(250px);
+    }
+}
+@media (max-width : 480px) {
+    .banner .slice{
+        display: none;
+    }
+    .banner .content{
+        bottom: 20px;
+        r
+    }
+}

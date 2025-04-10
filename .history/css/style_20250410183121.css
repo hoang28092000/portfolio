@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.banner{
+    background: url('../asset/image/banner-main.png');
+    width: 100vh;
+    height: 100vh;
+}
