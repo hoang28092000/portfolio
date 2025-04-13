@@ -1,0 +1,21 @@
+/* bout-me */
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+    .top-content-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .list-img-about img{
+        
+    }
+}

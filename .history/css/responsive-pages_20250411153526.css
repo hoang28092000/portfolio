@@ -1,0 +1,24 @@
+/* bout-me */
+@media (max-widt
+h: 768px) {
+    .about-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-right {
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .img-about {
+        width: 80%;
+    }
+    .content-main {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .list-img-about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

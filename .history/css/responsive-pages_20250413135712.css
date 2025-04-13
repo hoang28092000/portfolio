@@ -1,0 +1,35 @@
+/* bout-me */
+@media (min-width: 1170px) {
+ /* about-me */
+
+ 
+}
+@media (min-width: 1024.02px) and (max-width: 1169.98px) {
+ 
+
+}
+@media(min-width:768px) and (max-width: 1024px) {
+    .content-about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paragraph{
+        width: 100%;
+    }
+    .title-pages{
+        display: none;
+    }
+    .slice-img{
+        display: none;
+    }
+ 
+}
+@media(max-width:768px){
+    
+}
+@media (max-width: 480px) {
+    .slice-img{
+        display: none;
+    }    
+}

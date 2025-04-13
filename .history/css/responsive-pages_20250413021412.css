@@ -1,0 +1,118 @@
+/* bout-me */
+@media (min-width: 1170px) {
+ 
+}
+@media (min-width: 1024.02px) and (max-width: 1169.98px) {
+ 
+
+}
+@media (max-width: 1024px) {
+ 
+}
+@media (max-width: 480px) {
+  .top-content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .about-left {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  .list-img-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 0;
+  }
+  .about-right {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .title-heading {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .about-right .desc-about {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  .content-main {
+    grid-template-columns: 1fr;
+  }
+  .paragraph {
+    margin-bottom: 14px;
+  }
+  .paragraph .heading-main {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .list-img-about img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #2e2e2e;
+  }
+
+  /* contact */
+  #main-contact {
+    background-color: #fff;
+    padding: 0 20px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .contact {
+    padding: 10px;
+  }
+  .contact .content-contact {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-left {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .title-contact {
+    font-size: 2rem;
+  }
+
+  .info-contact .txt-contact {
+    font-size: 1.8rem;
+  }
+
+  .social-contact {
+    gap: 10px;
+  }
+  .social-contact a {
+    height: 40px;
+    width: 40px;
+  }
+
+  .icon-contact,
+  .img-social-contact {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .contact-right {
+    width: 100%;
+  }
+  .form-contact .input-contact {
+    font-size: 1.2rem;
+  }
+
+  .btn-submit {
+    font-size: 1.2rem;
+  }
+}

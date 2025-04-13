@@ -1,0 +1,24 @@
+@media (min-width: 1170.02px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-header{
+        position: absolute;
+        top: 20px;
+        width: 1170px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1170px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-header{
+        position: absolute;
+        top: 20px;
+        width: 100%;
+    }
+}
